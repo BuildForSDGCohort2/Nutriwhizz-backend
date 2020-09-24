@@ -1,11 +1,10 @@
 # Superhero Profile API #
 
-Develop a Superhero Profile API endpoint with LIST, CREATE, GET,
-UPDATE and DELETE support.
+Develop a Nutriwhizz backend with django.
 
 ### Set up in local machine: ###
 
-`git clone https://patbpm@bitbucket.org/patbpm/superhero-profile-api.git`
+`git clone https://github.com/BuildForSDGCohort2/Nutriwhizz-backend.git`
 
 ### How do I get set up? ###
 
@@ -25,4 +24,6 @@ UPDATE and DELETE support.
 * How to run tests
     `python manage.py runserver`
 
+How to run tests
+    `http://127.0.0.1:8000/api/v1`
 
