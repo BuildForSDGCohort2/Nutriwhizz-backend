@@ -1,3 +1,28 @@
-# Nutriwhizz-backend
+# Superhero Profile API #
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/22dccd9d44884878b9426da54132e881)](https://app.codacy.com/gh/BuildForSDGCohort2/Nutriwhizz-backend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/Nutriwhizz-backend&utm_campaign=Badge_Grade_Settings)
+Develop a Superhero Profile API endpoint with LIST, CREATE, GET,
+UPDATE and DELETE support.
+
+### Set up in local machine: ###
+
+`git clone https://patbpm@bitbucket.org/patbpm/superhero-profile-api.git`
+
+### How do I get set up? ###
+
+* Summary of set up
+    `python` and `pip` need to be installed
+* Configuration
+    set up and activate the enverioment  eg.`python -m venv myvenv`
+* Dependencies
+     Install the project dependencies by install the project equirments: `pip install -r requirements.txt`
+* Create Migration
+    `python manage.py migrate`
+* Create a new superuser for the admin
+    `python manage.py createsuperuser`
+* Finally, run the development server:
+    `python manage.py runserver`
+    The project will be available at 127.0.0.1:8000.
+* How to run tests
+    `python manage.py runserver`
+
+
